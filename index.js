@@ -8,7 +8,6 @@ document.getElementById('scrollUp').addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
-
 document.getElementById('scrollDown').addEventListener('click', function() {
     window.scrollTo({
         top: document.body.scrollHeight,
